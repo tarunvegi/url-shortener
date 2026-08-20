@@ -6,9 +6,11 @@ A production-grade URL shortener built with Java 17, Spring Boot 3, React 18, Po
 
 ## Demo
 
-[![Watch the demo](https://img.youtube.com/vi/HalnY4AE9DI/maxresdefault.jpg)](https://youtu.be/HalnY4AE9DI)
+[![Watch the demo](https://i.ytimg.com/vi/HalnY4AE9DI/hqdefault.jpg)](https://youtu.be/HalnY4AE9DI)
 
-Click the thumbnail above to watch on YouTube. A local copy is also in the repo at [`Demo.mp4`](Demo.mp4) (downloadable; GitHub's inline preview only supports files under ~2MB, too small for the full walkthrough at watchable quality).
+[Watch the full walkthrough on YouTube](https://youtu.be/HalnY4AE9DI)
+
+A local copy is also in the repo at [`Demo.mp4`](Demo.mp4).
 
 ## Quick Start
 

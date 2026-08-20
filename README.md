@@ -6,9 +6,7 @@ A production-grade URL shortener built with Java 17, Spring Boot 3, React 18, Po
 
 ## Demo
 
-<video src="https://github.com/tarunvegi/url-shortener/raw/master/Demo.mp4" controls width="100%"></video>
-
-If the player above doesn't load, [download/view Demo.mp4 directly](Demo.mp4).
+[**Watch the demo**](Demo.mp4) (opens GitHub's built-in video player)
 
 ## Quick Start
 

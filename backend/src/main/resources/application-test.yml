@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
+  data:
+    redis:
+      host: localhost
+      port: 6370  # embedded redis port for tests
+
+  kafka:
+    bootstrap-servers: localhost:9093
+    listener:
+      auto-startup: false
+    admin:
+      fail-fast: false
+      properties:
+        request.timeout.ms: 1000
+        default.api.timeout.ms: 1000
+
+app:
+  base-url: http://localhost:8080
+  redis:
+    counter-key: url:global:counter:test
+    counter-batch-size: 10
+    cache-ttl-seconds: 60
+  rate-limit:
+    capacity: 100
+    refill-per-minute: 100
